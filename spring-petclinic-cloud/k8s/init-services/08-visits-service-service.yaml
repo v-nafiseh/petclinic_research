@@ -1,0 +1,19 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: visits-service
+  name: visits-service
+  namespace: spring-petclinic  
+spec:
+  ports:
+  - name: "http"
+    port: 8080
+    targetPort: 8080
+    nodePort: 32214
+  selector:
+    app: visits-service
+  type: NodePort
+status:
+  loadBalancer: {}

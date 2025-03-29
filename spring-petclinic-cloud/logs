@@ -1,0 +1,447 @@
+The push refers to repository [docker.io/nafiseh98/spring-petclinic-cloud-api-gateway]
+1dc94a70dbaa: Preparing
+833458c25c7d: Preparing
+8812c86dc680: Preparing
+5f70bf18a086: Preparing
+2a59a7835d50: Preparing
+5f70bf18a086: Preparing
+b32f5a546cd9: Preparing
+a3ed002ace72: Preparing
+fcc507beb4cc: Preparing
+9743316173d3: Preparing
+4d96b6b9ecca: Preparing
+7fbc97c38fad: Preparing
+f1122200a9b0: Preparing
+ec0381c8f321: Preparing
+ec60a3e886a6: Preparing
+52efb1a98ceb: Preparing
+1eb5983d7301: Preparing
+39d381810cef: Preparing
+115fc79fb3d1: Preparing
+fd93afbbe1ce: Preparing
+f92983442b23: Preparing
+4d274d05ee12: Preparing
+548a79621a42: Preparing
+b32f5a546cd9: Waiting
+a3ed002ace72: Waiting
+fcc507beb4cc: Waiting
+9743316173d3: Waiting
+39d381810cef: Waiting
+4d96b6b9ecca: Waiting
+115fc79fb3d1: Waiting
+fd93afbbe1ce: Waiting
+ec60a3e886a6: Waiting
+f92983442b23: Waiting
+52efb1a98ceb: Waiting
+4d274d05ee12: Waiting
+1eb5983d7301: Waiting
+548a79621a42: Waiting
+7fbc97c38fad: Waiting
+ec0381c8f321: Waiting
+5f70bf18a086: Layer already exists
+8812c86dc680: Layer already exists
+1dc94a70dbaa: Layer already exists
+fcc507beb4cc: Layer already exists
+b32f5a546cd9: Layer already exists
+833458c25c7d: Layer already exists
+9743316173d3: Layer already exists
+4d96b6b9ecca: Layer already exists
+7fbc97c38fad: Layer already exists
+ec0381c8f321: Layer already exists
+f1122200a9b0: Layer already exists
+a3ed002ace72: Layer already exists
+ec60a3e886a6: Layer already exists
+52efb1a98ceb: Layer already exists
+1eb5983d7301: Layer already exists
+39d381810cef: Layer already exists
+115fc79fb3d1: Layer already exists
+fd93afbbe1ce: Layer already exists
+4d274d05ee12: Layer already exists
+f92983442b23: Layer already exists
+548a79621a42: Layer already exists
+2a59a7835d50: Pushed
+latest: digest: sha256:b2b2d0c255c8627cc147a2bf89bf9691bfcff46c1dc4037ec882a97f96a12f61 size: 5119
+The push refers to repository [docker.io/nafiseh98/spring-petclinic-cloud-visits-service]
+1dc94a70dbaa: Preparing
+7006f92bc29b: Preparing
+8812c86dc680: Preparing
+5f70bf18a086: Preparing
+1b3e4fcbdef0: Preparing
+5f70bf18a086: Preparing
+b32f5a546cd9: Preparing
+d329bf0ce3a4: Preparing
+6763b99e3792: Preparing
+9743316173d3: Preparing
+4d96b6b9ecca: Preparing
+7fbc97c38fad: Preparing
+f1122200a9b0: Preparing
+ec0381c8f321: Preparing
+ec60a3e886a6: Preparing
+52efb1a98ceb: Preparing
+1eb5983d7301: Preparing
+39d381810cef: Preparing
+115fc79fb3d1: Preparing
+fd93afbbe1ce: Preparing
+f92983442b23: Preparing
+4d274d05ee12: Preparing
+548a79621a42: Preparing
+9743316173d3: Waiting
+4d96b6b9ecca: Waiting
+7fbc97c38fad: Waiting
+f1122200a9b0: Waiting
+ec0381c8f321: Waiting
+ec60a3e886a6: Waiting
+52efb1a98ceb: Waiting
+1eb5983d7301: Waiting
+39d381810cef: Waiting
+115fc79fb3d1: Waiting
+fd93afbbe1ce: Waiting
+b32f5a546cd9: Waiting
+f92983442b23: Waiting
+d329bf0ce3a4: Waiting
+4d274d05ee12: Waiting
+548a79621a42: Waiting
+6763b99e3792: Waiting
+1dc94a70dbaa: Layer already exists
+5f70bf18a086: Layer already exists
+8812c86dc680: Layer already exists
+6763b99e3792: Layer already exists
+7006f92bc29b: Layer already exists
+b32f5a546cd9: Layer already exists
+9743316173d3: Layer already exists
+4d96b6b9ecca: Layer already exists
+7fbc97c38fad: Layer already exists
+d329bf0ce3a4: Layer already exists
+f1122200a9b0: Layer already exists
+ec0381c8f321: Layer already exists
+ec60a3e886a6: Layer already exists
+52efb1a98ceb: Layer already exists
+1eb5983d7301: Layer already exists
+39d381810cef: Layer already exists
+115fc79fb3d1: Layer already exists
+fd93afbbe1ce: Layer already exists
+f92983442b23: Layer already exists
+4d274d05ee12: Layer already exists
+548a79621a42: Layer already exists
+1b3e4fcbdef0: Pushed
+latest: digest: sha256:89177e3c423858575f3112a92bd97392aebb006dc8c81ef791cafcd4dc9b135b size: 5118
+The push refers to repository [docker.io/nafiseh98/spring-petclinic-cloud-vets-service]
+1dc94a70dbaa: Preparing
+f3fefbdee016: Preparing
+8812c86dc680: Preparing
+5f70bf18a086: Preparing
+b2b8dffd4c70: Preparing
+5f70bf18a086: Preparing
+b32f5a546cd9: Preparing
+94669194d2f0: Preparing
+6763b99e3792: Preparing
+9743316173d3: Preparing
+4d96b6b9ecca: Preparing
+7fbc97c38fad: Preparing
+f1122200a9b0: Preparing
+ec0381c8f321: Preparing
+ec60a3e886a6: Preparing
+52efb1a98ceb: Preparing
+1eb5983d7301: Preparing
+39d381810cef: Preparing
+115fc79fb3d1: Preparing
+fd93afbbe1ce: Preparing
+f92983442b23: Preparing
+4d274d05ee12: Preparing
+548a79621a42: Preparing
+b32f5a546cd9: Waiting
+94669194d2f0: Waiting
+6763b99e3792: Waiting
+ec60a3e886a6: Waiting
+9743316173d3: Waiting
+4d96b6b9ecca: Waiting
+52efb1a98ceb: Waiting
+7fbc97c38fad: Waiting
+1eb5983d7301: Waiting
+f1122200a9b0: Waiting
+ec0381c8f321: Waiting
+fd93afbbe1ce: Waiting
+f92983442b23: Waiting
+39d381810cef: Waiting
+115fc79fb3d1: Waiting
+4d274d05ee12: Waiting
+548a79621a42: Waiting
+5f70bf18a086: Layer already exists
+1dc94a70dbaa: Layer already exists
+8812c86dc680: Layer already exists
+b32f5a546cd9: Layer already exists
+f3fefbdee016: Layer already exists
+6763b99e3792: Layer already exists
+9743316173d3: Layer already exists
+4d96b6b9ecca: Layer already exists
+7fbc97c38fad: Layer already exists
+94669194d2f0: Layer already exists
+f1122200a9b0: Layer already exists
+ec60a3e886a6: Layer already exists
+ec0381c8f321: Layer already exists
+52efb1a98ceb: Layer already exists
+1eb5983d7301: Layer already exists
+39d381810cef: Layer already exists
+115fc79fb3d1: Layer already exists
+fd93afbbe1ce: Layer already exists
+f92983442b23: Layer already exists
+4d274d05ee12: Layer already exists
+548a79621a42: Layer already exists
+b2b8dffd4c70: Pushed
+latest: digest: sha256:356ee6f4a1fbec0bab635386e28d48a99185af2091e03ce80085110fb0957e8c size: 5118
+The push refers to repository [docker.io/nafiseh98/spring-petclinic-cloud-customers-service]
+1dc94a70dbaa: Preparing
+6ebb48b30921: Preparing
+8812c86dc680: Preparing
+5f70bf18a086: Preparing
+501b12a6d7f9: Preparing
+5f70bf18a086: Preparing
+b32f5a546cd9: Preparing
+d329bf0ce3a4: Preparing
+6763b99e3792: Preparing
+9743316173d3: Preparing
+4d96b6b9ecca: Preparing
+7fbc97c38fad: Preparing
+f1122200a9b0: Preparing
+ec0381c8f321: Preparing
+ec60a3e886a6: Preparing
+52efb1a98ceb: Preparing
+1eb5983d7301: Preparing
+39d381810cef: Preparing
+115fc79fb3d1: Preparing
+fd93afbbe1ce: Preparing
+f92983442b23: Preparing
+4d274d05ee12: Preparing
+548a79621a42: Preparing
+ec60a3e886a6: Waiting
+52efb1a98ceb: Waiting
+d329bf0ce3a4: Waiting
+1eb5983d7301: Waiting
+7fbc97c38fad: Waiting
+39d381810cef: Waiting
+f1122200a9b0: Waiting
+6763b99e3792: Waiting
+115fc79fb3d1: Waiting
+ec0381c8f321: Waiting
+fd93afbbe1ce: Waiting
+9743316173d3: Waiting
+f92983442b23: Waiting
+4d96b6b9ecca: Waiting
+4d274d05ee12: Waiting
+548a79621a42: Waiting
+b32f5a546cd9: Waiting
+1dc94a70dbaa: Layer already exists
+8812c86dc680: Layer already exists
+5f70bf18a086: Layer already exists
+b32f5a546cd9: Layer already exists
+d329bf0ce3a4: Layer already exists
+6763b99e3792: Layer already exists
+4d96b6b9ecca: Layer already exists
+9743316173d3: Layer already exists
+7fbc97c38fad: Layer already exists
+6ebb48b30921: Layer already exists
+f1122200a9b0: Layer already exists
+ec0381c8f321: Layer already exists
+ec60a3e886a6: Layer already exists
+52efb1a98ceb: Layer already exists
+1eb5983d7301: Layer already exists
+115fc79fb3d1: Layer already exists
+39d381810cef: Layer already exists
+fd93afbbe1ce: Layer already exists
+f92983442b23: Layer already exists
+548a79621a42: Layer already exists
+4d274d05ee12: Layer already exists
+501b12a6d7f9: Pushed
+latest: digest: sha256:3a3734ba8f0956837141e80c40e68a52e1772af94ea9db1e62b4d4e8fec492c4 size: 5118
+The push refers to repository [docker.io/nafiseh98/spring-petclinic-cloud-admin-server]
+1dc94a70dbaa: Preparing
+2e4f71509f7f: Preparing
+8812c86dc680: Preparing
+5f70bf18a086: Preparing
+fe5704bf22b3: Preparing
+5f70bf18a086: Preparing
+b32f5a546cd9: Preparing
+b72fb3273394: Preparing
+fcc507beb4cc: Preparing
+9743316173d3: Preparing
+4d96b6b9ecca: Preparing
+7fbc97c38fad: Preparing
+9b75fe3bad7b: Preparing
+ec0381c8f321: Preparing
+0b63a0b9e179: Preparing
+52efb1a98ceb: Preparing
+1eb5983d7301: Preparing
+39d381810cef: Preparing
+115fc79fb3d1: Preparing
+fd93afbbe1ce: Preparing
+f92983442b23: Preparing
+4d274d05ee12: Preparing
+548a79621a42: Preparing
+b32f5a546cd9: Waiting
+0b63a0b9e179: Waiting
+b72fb3273394: Waiting
+52efb1a98ceb: Waiting
+fcc507beb4cc: Waiting
+1eb5983d7301: Waiting
+9743316173d3: Waiting
+39d381810cef: Waiting
+fd93afbbe1ce: Waiting
+115fc79fb3d1: Waiting
+4d274d05ee12: Waiting
+4d96b6b9ecca: Waiting
+f92983442b23: Waiting
+7fbc97c38fad: Waiting
+ec0381c8f321: Waiting
+548a79621a42: Waiting
+9b75fe3bad7b: Waiting
+1dc94a70dbaa: Layer already exists
+8812c86dc680: Layer already exists
+5f70bf18a086: Layer already exists
+fcc507beb4cc: Layer already exists
+b72fb3273394: Layer already exists
+b32f5a546cd9: Layer already exists
+2e4f71509f7f: Layer already exists
+9743316173d3: Layer already exists
+4d96b6b9ecca: Layer already exists
+9b75fe3bad7b: Layer already exists
+7fbc97c38fad: Layer already exists
+0b63a0b9e179: Layer already exists
+ec0381c8f321: Layer already exists
+52efb1a98ceb: Layer already exists
+1eb5983d7301: Layer already exists
+115fc79fb3d1: Layer already exists
+39d381810cef: Layer already exists
+fd93afbbe1ce: Layer already exists
+f92983442b23: Layer already exists
+4d274d05ee12: Layer already exists
+548a79621a42: Layer already exists
+fe5704bf22b3: Pushed
+latest: digest: sha256:3f8dd050b8f25871811eab8cdc713d199bdcdcdfa0d6feaa8d03e378183e1ae0 size: 5117
+The push refers to repository [docker.io/nafiseh98/spring-petclinic-cloud-discovery-service]
+1dc94a70dbaa: Preparing
+ee594d5f974f: Preparing
+8812c86dc680: Preparing
+5f70bf18a086: Preparing
+8edea13a9658: Preparing
+5f70bf18a086: Preparing
+b32f5a546cd9: Preparing
+cd0d0e6331f5: Preparing
+6763b99e3792: Preparing
+9743316173d3: Preparing
+4d96b6b9ecca: Preparing
+7fbc97c38fad: Preparing
+9b75fe3bad7b: Preparing
+ec0381c8f321: Preparing
+0b63a0b9e179: Preparing
+52efb1a98ceb: Preparing
+1eb5983d7301: Preparing
+39d381810cef: Preparing
+115fc79fb3d1: Preparing
+fd93afbbe1ce: Preparing
+f92983442b23: Preparing
+4d274d05ee12: Preparing
+548a79621a42: Preparing
+ec0381c8f321: Waiting
+cd0d0e6331f5: Waiting
+6763b99e3792: Waiting
+0b63a0b9e179: Waiting
+9743316173d3: Waiting
+52efb1a98ceb: Waiting
+1eb5983d7301: Waiting
+4d96b6b9ecca: Waiting
+39d381810cef: Waiting
+7fbc97c38fad: Waiting
+115fc79fb3d1: Waiting
+fd93afbbe1ce: Waiting
+9b75fe3bad7b: Waiting
+f92983442b23: Waiting
+4d274d05ee12: Waiting
+548a79621a42: Waiting
+b32f5a546cd9: Waiting
+1dc94a70dbaa: Layer already exists
+8812c86dc680: Layer already exists
+5f70bf18a086: Layer already exists
+ee594d5f974f: Layer already exists
+6763b99e3792: Layer already exists
+b32f5a546cd9: Layer already exists
+9743316173d3: Layer already exists
+7fbc97c38fad: Layer already exists
+4d96b6b9ecca: Layer already exists
+cd0d0e6331f5: Layer already exists
+9b75fe3bad7b: Layer already exists
+ec0381c8f321: Layer already exists
+0b63a0b9e179: Layer already exists
+52efb1a98ceb: Layer already exists
+1eb5983d7301: Layer already exists
+115fc79fb3d1: Layer already exists
+fd93afbbe1ce: Layer already exists
+39d381810cef: Layer already exists
+f92983442b23: Layer already exists
+4d274d05ee12: Layer already exists
+548a79621a42: Layer already exists
+8edea13a9658: Pushed
+latest: digest: sha256:a74fdf3f6be4e6f3647fb798d667abfe1e0330beb1c2a57aace29fa041c4656d size: 5117
+The push refers to repository [docker.io/nafiseh98/spring-petclinic-cloud-config-server]
+1dc94a70dbaa: Preparing
+cba18a45a8a1: Preparing
+8812c86dc680: Preparing
+5f70bf18a086: Preparing
+6b2669fd4c45: Preparing
+5f70bf18a086: Preparing
+b32f5a546cd9: Preparing
+60f7735e24e3: Preparing
+6763b99e3792: Preparing
+9743316173d3: Preparing
+4d96b6b9ecca: Preparing
+7fbc97c38fad: Preparing
+9b75fe3bad7b: Preparing
+ec0381c8f321: Preparing
+0b63a0b9e179: Preparing
+52efb1a98ceb: Preparing
+1eb5983d7301: Preparing
+39d381810cef: Preparing
+115fc79fb3d1: Preparing
+fd93afbbe1ce: Preparing
+f92983442b23: Preparing
+4d274d05ee12: Preparing
+548a79621a42: Preparing
+1eb5983d7301: Waiting
+39d381810cef: Waiting
+115fc79fb3d1: Waiting
+fd93afbbe1ce: Waiting
+f92983442b23: Waiting
+4d274d05ee12: Waiting
+548a79621a42: Waiting
+b32f5a546cd9: Waiting
+60f7735e24e3: Waiting
+6763b99e3792: Waiting
+9743316173d3: Waiting
+ec0381c8f321: Waiting
+0b63a0b9e179: Waiting
+4d96b6b9ecca: Waiting
+7fbc97c38fad: Waiting
+52efb1a98ceb: Waiting
+9b75fe3bad7b: Waiting
+1dc94a70dbaa: Layer already exists
+8812c86dc680: Layer already exists
+5f70bf18a086: Layer already exists
+cba18a45a8a1: Layer already exists
+b32f5a546cd9: Layer already exists
+6763b99e3792: Layer already exists
+60f7735e24e3: Layer already exists
+9743316173d3: Layer already exists
+4d96b6b9ecca: Layer already exists
+7fbc97c38fad: Layer already exists
+9b75fe3bad7b: Layer already exists
+ec0381c8f321: Layer already exists
+52efb1a98ceb: Layer already exists
+0b63a0b9e179: Layer already exists
+1eb5983d7301: Layer already exists
+39d381810cef: Layer already exists
+115fc79fb3d1: Layer already exists
+fd93afbbe1ce: Layer already exists
+f92983442b23: Layer already exists
+4d274d05ee12: Layer already exists
+548a79621a42: Layer already exists
+6b2669fd4c45: Pushed
+latest: digest: sha256:5c761a82f1db926c42afc6c4db7ac434ced55ea23757232c787e2038a18fe9ff size: 5117

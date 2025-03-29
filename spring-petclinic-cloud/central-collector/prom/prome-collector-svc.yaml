@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: otel-collector-prom
+  namespace: default
+  labels:
+    app: otel-collector
+spec:
+  type: NodePort
+  ports:
+    - name: metrics
+      port: 9464
+      targetPort: 9464
+      # Optional: If you don't specify a nodePort, one will be assigned automatically.
+      nodePort: 30751
+  selector:
+    app: otel-collector

@@ -1,0 +1,62 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: api-gateway
+  name: api-gateway
+  namespace: spring-petclinic
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-gateway
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        instrumentation.opentelemetry.io/inject-java: 'true'
+        sidecar.opentelemetry.io/inject: 'true'
+        #sidecar.opentelemetry.io/collector: "sidecar"
+      labels:
+        app: api-gateway
+    spec:
+      containers:
+      - image: nafiseh98/spring-petclinic-cloud-api-gateway:latest
+        name: api-gateway
+        imagePullPolicy: Always
+        securityContext:
+          runAsUser: 0  # Run as root
+        livenessProbe:
+          httpGet:
+            port: 8080
+            path: /actuator/health/liveness
+          initialDelaySeconds: 90
+          periodSeconds: 5
+        readinessProbe:
+          httpGet:
+            port: 8080
+            path: /actuator/health/readiness
+          initialDelaySeconds: 15
+        lifecycle:
+          preStop:
+            exec:
+              command: ["sh", "-c", "sleep 10"]
+        resources:
+          limits:
+            memory: 1Gi
+          requests:
+            cpu: 750m
+            memory: 950Mi
+        env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: kubernetes
+            #  - name: JAVA_TOOL_OPTIONS
+            #value: "-javaagent:/otel-auto-instrumentation-java/javaagent.jar -Dotel.javaagent.debug=true"
+
+        # - name: MANAGEMENT_METRICS_EXPORT_WAVEFRONT_URI
+        #   value: proxy://wavefront-proxy.spring-petclinic.svc.cluster.local:2878
+        ports:
+        - containerPort: 8080
+      restartPolicy: Always
+status: {}

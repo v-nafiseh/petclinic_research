@@ -1,0 +1,90 @@
+Setting Active Processor Count to 10
+Calculating JVM memory based on 7747020K available memory
+For more information on this calculation, see https://paketo.io/docs/reference/java-reference/#memory-calculator
+Calculated JVM Memory Configuration: -XX:MaxDirectMemorySize=10M -Xmx7038478K -XX:MaxMetaspaceSize=196541K -XX:ReservedCodeCacheSize=240M -Xss1M (Total Memory: 7747020K, Thread Count: 250, Loaded Class Count: 32286, Headroom: 0%)
+Enabling Java Native Memory Tracking
+Adding 137 container CA certificates to JVM truststore
+Spring Cloud Bindings Enabled
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/otel-auto-instrumentation-java/javaagent.jar -Djava.security.properties=/layers/paketo-buildpacks_bellsoft-liberica/java-security-properties/java-security.properties -XX:+ExitOnOutOfMemoryError -XX:ActiveProcessorCount=10 -XX:MaxDirectMemorySize=10M -Xmx7038478K -XX:MaxMetaspaceSize=196541K -XX:ReservedCodeCacheSize=240M -Xss1M -XX:+UnlockDiagnosticVMOptions -XX:NativeMemoryTracking=summary -XX:+PrintNMTStatistics -Dorg.springframework.cloud.bindings.boot.enable=true
+[otel.javaagent 2025-02-19 05:30:17:556 +0000] [main] INFO io.opentelemetry.javaagent.tooling.VersionLogger - opentelemetry-javaagent - version: 2.13.0
+2025-02-19 05:30:24.955  INFO [customers-service,,] 1 --- [           main] o.s.c.k.client.KubernetesClientUtils     : Created API client in the cluster.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.3)
+
+2025-02-19 05:30:25.243  INFO [customers-service,,] 1 --- [           main] .KubernetesClientConfigMapPropertySource : Loading ConfigMap with name 'petclinic-config' in namespace 'spring-petclinic'
+2025-02-19 05:30:25.668  INFO [customers-service,,] 1 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configmap.petclinic-config.spring-petclinic'}]
+2025-02-19 05:30:25.706  INFO [customers-service,,] 1 --- [           main] o.s.s.p.c.CustomersServiceApplication    : The following profiles are active: kubernetes
+[otel.javaagent 2025-02-19 05:30:26:190 +0000] [OkHttp http://central-collector-collector.default.svc.cluster.local:4318/...] WARN io.opentelemetry.exporter.internal.http.HttpExporter - Failed to export logs. Server responded with HTTP status code 404. Error message: Unable to parse response body, HTTP status message: Not Found
+2025-02-19 05:30:27.384  INFO [customers-service,,] 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-19 05:30:27.467  INFO [customers-service,,] 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2025-02-19 05:30:27.942  INFO [customers-service,,] 1 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2299d316-1b73-3fa7-b7fb-3e77003f3709
+[otel.javaagent 2025-02-19 05:30:28:225 +0000] [OkHttp http://central-collector-collector.default.svc.cluster.local:4318/...] WARN io.opentelemetry.exporter.internal.http.HttpExporter - Failed to export logs. Server responded with HTTP status code 404. Error message: Unable to parse response body, HTTP status message: Not Found
+2025-02-19 05:30:28.427  INFO [customers-service,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'io.kubernetes.client.spring.extended.manifests.config.KubernetesManifestsAutoConfiguration' of type [io.kubernetes.client.spring.extended.manifests.config.KubernetesManifestsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-02-19 05:30:28.457  INFO [customers-service,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-02-19 05:30:28.460  INFO [customers-service,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-02-19 05:30:28.462  INFO [customers-service,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$972/0x000000080092a840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-02-19 05:30:28.466  INFO [customers-service,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-02-19 05:30:28.472  INFO [customers-service,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'kubernetes.manifests-io.kubernetes.client.spring.extended.manifests.config.KubernetesManifestsProperties' of type [io.kubernetes.client.spring.extended.manifests.config.KubernetesManifestsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[otel.javaagent 2025-02-19 05:30:29:246 +0000] [OkHttp http://central-collector-collector.default.svc.cluster.local:4318/...] WARN io.opentelemetry.exporter.internal.http.HttpExporter - Failed to export logs. Server responded with HTTP status code 404. Error message: Unable to parse response body, HTTP status message: Not Found
+2025-02-19 05:30:30.869  INFO [customers-service,,] 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-19 05:30:31.227  INFO [customers-service,,] 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-19 05:30:31.229  INFO [customers-service,,] 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+[otel.javaagent 2025-02-19 05:30:31:270 +0000] [OkHttp http://central-collector-collector.default.svc.cluster.local:4318/...] WARN io.opentelemetry.exporter.internal.http.HttpExporter - Failed to export logs. Server responded with HTTP status code 404. Error message: Unable to parse response body, HTTP status message: Not Found
+2025-02-19 05:30:31.452  INFO [customers-service,,] 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-19 05:30:31.453  INFO [customers-service,,] 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5731 ms
+2025-02-19 05:30:31.622  INFO [customers-service,,] 1 --- [           main] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2025-02-19 05:30:31.741  INFO [customers-service,,] 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[otel.javaagent 2025-02-19 05:30:32:276 +0000] [OkHttp http://central-collector-collector.default.svc.cluster.local:4318/...] WARN io.opentelemetry.exporter.internal.http.HttpExporter - Failed to export logs. Server responded with HTTP status code 404. Error message: Unable to parse response body, HTTP status message: Not Found
+2025-02-19 05:30:32.421  INFO [customers-service,,] 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-19 05:30:32.958  INFO [customers-service,,] 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-19 05:30:33.047  INFO [customers-service,,] 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+[otel.javaagent 2025-02-19 05:30:33:297 +0000] [OkHttp http://central-collector-collector.default.svc.cluster.local:4318/...] WARN io.opentelemetry.exporter.internal.http.HttpExporter - Too many log messages detected. Will only log once per minute from now on.
+[otel.javaagent 2025-02-19 05:30:33:298 +0000] [OkHttp http://central-collector-collector.default.svc.cluster.local:4318/...] WARN io.opentelemetry.exporter.internal.http.HttpExporter - Failed to export logs. Server responded with HTTP status code 404. Error message: Unable to parse response body, HTTP status message: Not Found
+2025-02-19 05:30:33.438  INFO [customers-service,,] 1 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-19 05:30:33.669  INFO [customers-service,,] 1 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-19 05:30:34.525  INFO [customers-service,,] 1 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-19 05:30:34.553  INFO [customers-service,,] 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-19 05:30:34.619  WARN [customers-service,,] 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-19 05:30:36.308  INFO [customers-service,,] 1 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b6bfb6c6-32b1-40ed-b4d9-1dbfa00ba9af
+
+2025-02-19 05:30:36.473  WARN [customers-service,,] 1 --- [           main] o.s.s.p.c.s.InsecurityConfiguration      : configuring insecure HttpSecurity
+2025-02-19 05:30:36.480  WARN [customers-service,,] 1 --- [           main] o.s.s.p.c.s.InsecurityConfiguration      : configuring insecure WebSecurity
+2025-02-19 05:30:36.482  INFO [customers-service,,] 1 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**'] with []
+2025-02-19 05:30:36.568  INFO [customers-service,,] 1 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34abbd8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@3caef656, org.springframework.security.web.header.HeaderWriterFilter@4762b2c0, org.springframework.security.web.authentication.logout.LogoutFilter@5c962ec8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bf552d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d8677b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@391c6239, org.springframework.security.web.session.SessionManagementFilter@3f763565, org.springframework.security.web.access.ExceptionTranslationFilter@3609424e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a209683]
+2025-02-19 05:30:36.769  INFO [customers-service,,] 1 --- [           main] o.s.c.k.client.KubernetesClientUtils     : Created API client in the cluster.
+2025-02-19 05:30:36.801  INFO [customers-service,,] 1 --- [           main] o.s.c.k.client.KubernetesClientUtils     : Created API client in the cluster.
+2025-02-19 05:30:36.801  INFO [customers-service,,] 1 --- [ler-V1ConfigMap] i.k.client.informer.cache.Controller     : informer#Controller: ready to run resync & reflector runnable
+2025-02-19 05:30:36.802  INFO [customers-service,,] 1 --- [ler-V1ConfigMap] i.k.client.informer.cache.Controller     : informer#Controller: resync skipped due to 0 full resync period
+2025-02-19 05:30:36.807  INFO [customers-service,,] 1 --- [s.V1ConfigMap-1] i.k.c.informer.cache.ReflectorRunnable   : class io.kubernetes.client.openapi.models.V1ConfigMap#Start listing and watching...
+2025-02-19 05:30:36.826  INFO [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : CongifMap customers-db-mysql was added.
+2025-02-19 05:30:36.829  INFO [customers-service,,] 1 --- [ool-10-thread-1] .KubernetesClientConfigMapPropertySource : Loading ConfigMap with name 'petclinic-config' in namespace 'spring-petclinic'
+2025-02-19 05:30:36.855  WARN [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : Configuration change was not detected.
+2025-02-19 05:30:36.856  INFO [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : CongifMap kube-root-ca.crt was added.
+2025-02-19 05:30:36.856  INFO [customers-service,,] 1 --- [ool-10-thread-1] .KubernetesClientConfigMapPropertySource : Loading ConfigMap with name 'petclinic-config' in namespace 'spring-petclinic'
+2025-02-19 05:30:36.870  WARN [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : Configuration change was not detected.
+2025-02-19 05:30:36.871  INFO [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : CongifMap petclinic-config was added.
+2025-02-19 05:30:36.871  INFO [customers-service,,] 1 --- [ool-10-thread-1] .KubernetesClientConfigMapPropertySource : Loading ConfigMap with name 'petclinic-config' in namespace 'spring-petclinic'
+2025-02-19 05:30:36.874  INFO [customers-service,,] 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2025-02-19 05:30:36.888  WARN [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : Configuration change was not detected.
+2025-02-19 05:30:36.889  INFO [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : CongifMap sidecar-collector-1619c45a was added.
+2025-02-19 05:30:36.889  INFO [customers-service,,] 1 --- [ool-10-thread-1] .KubernetesClientConfigMapPropertySource : Loading ConfigMap with name 'petclinic-config' in namespace 'spring-petclinic'
+2025-02-19 05:30:36.901  WARN [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : Configuration change was not detected.
+2025-02-19 05:30:36.902  INFO [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : CongifMap vets-db-mysql was added.
+2025-02-19 05:30:36.903  INFO [customers-service,,] 1 --- [ool-10-thread-1] .KubernetesClientConfigMapPropertySource : Loading ConfigMap with name 'petclinic-config' in namespace 'spring-petclinic'
+2025-02-19 05:30:36.912  WARN [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : Configuration change was not detected.
+2025-02-19 05:30:36.912  INFO [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : CongifMap visits-db-mysql was added.
+2025-02-19 05:30:36.913  INFO [customers-service,,] 1 --- [ool-10-thread-1] .KubernetesClientConfigMapPropertySource : Loading ConfigMap with name 'petclinic-config' in namespace 'spring-petclinic'
+2025-02-19 05:30:36.922  WARN [customers-service,,] 1 --- [ool-10-thread-1] sClientEventBasedConfigMapChangeDetector : Configuration change was not detected.
+2025-02-19 05:30:36.980  INFO [customers-service,,] 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-19 05:30:37.005  INFO [customers-service,,] 1 --- [           main] o.s.s.p.c.CustomersServiceApplication    : Started CustomersServiceApplication in 15.357 seconds (JVM running for 19.712)
+2025-02-19 05:30:41.710  INFO [customers-service,2b5486228ae0767f,2b5486228ae0767f] 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-19 05:30:41.711  INFO [customers-service,2b5486228ae0767f,2b5486228ae0767f] 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-19 05:30:41.713  INFO [customers-service,2b5486228ae0767f,2b5486228ae0767f] 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
